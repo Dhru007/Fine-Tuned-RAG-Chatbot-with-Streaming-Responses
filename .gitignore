@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+
+
+# Virtual Environments
+
+myvenv/
+
+
+
+# Environment Variables
+.env
+
+
+logs/
+*.log
+
+# ChromaDB / Vector Database
+vectordb
+chroma/
+*.sqlite3
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Streamlit Cache
+.streamlit/cache/
+
+# Model Cache
+.cache/
+huggingface_cache/
+
+# Sentence Transformers Cache
+sentence_transformers/
+
+# Ollama Temporary Files
+ollama_logs/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Generated Chunks
+chunks/
+
+# Temporary Files
+temp/
+tmp/
+*.tmp
+
+# PDF Reports Generated During Testing
+reports/
+
+# Secrets
+secrets.toml
+config.local.py

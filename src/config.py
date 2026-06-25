@@ -1,0 +1,13 @@
+MODEL_NAME = "llama2:latest"
+
+EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"
+
+CHROMA_PATH = "vectordb"
+
+TOP_K = 5
+
+CHUNK_SIZE = 500
+
+CHUNK_OVERLAP = 100
+
+TEMPERATURE = 0
